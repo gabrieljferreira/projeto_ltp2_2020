@@ -1,1 +1,0 @@
-# projeto_ltp2_2020

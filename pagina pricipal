@@ -1,0 +1,238 @@
+@app.route("/pagina2")
+def segunda_pagina():
+    return """
+        <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Quem Venceria?</title>
+    </head>
+
+    <body>
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<!--Get your own code at fontawesome.com-->
+</head>    <body>
+</body>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.site {
+  background-color: black;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.header {
+  background-color: orange;
+  color: #ffffff;
+  padding: 15px;
+  text-align: center;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color:black;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 50px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img src="https://www.valuecoders.com/blog/wp-content/uploads/2016/02/Codeigniter-Vs-CakePHP-Vs-Yii-Vs-Laravel.png" alt="rivalidade_site" width="300" height="95">  <img src="http://68.media.tumblr.com/9052502503632179ba9d4f1c66260ea1/tumblr_ojbxmfyiq21u6n38po1_400.gif" alt="rivalidade_site" width="300" height="200" >
+    <h1>Quem Ganharia Em Uma Luta até A Morte!</h1>
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+
+<style>
+a:link, a:visited {
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: light;
+}
+</style>
+
+    <a href="http://www.marvel.com"><li>The Marvel Universe</li></a>
+    <a href="https://www.dccomics.com"><li>The DC Universe</li></a>
+    <a href="https://www.tv-tokyo.co.jp"><li>The TV Tokio Universe</li></a>
+    <a href="https://disney.com.br"><li>The Dysney(and Fox) Universe</li></a>
+    <a href="https://www.universalpics.com.br"><li>Universal</li></a>
+    </ul>
+  </div>
+
+
+<div class="footer">
+  <p>Se Não For Possivel Lavar As Mãos, Higienize às com Alcool em Gel, E Ao Sair Use Mascara! <p>Proteja-Se!</p>  <i class="fas fa-heart" style="font-size:48px;color:red;" ></i> <i class="fas fa-hands-wash" style="font-size:48px;color:lightblue;" ></i> <i class="fas fa-head-side-mask" style="font-size:48px;color:orange;"></i></p>
+</div>
+
+<h1>Kakashi Hatake(naruto)  VS Satoru Endo(Super Onze)</h1>
+
+
+<img src="https://media.giphy.com/media/H5AMoAO4JLPEI/giphy.gif"   alt="kakashi" width="360" height="182"> <img src="https://cdn.onlinewebfonts.com/svg/img_418591.png" alt="versus" width="200" height="250"> <img src="http://pa1.narvii.com/6411/b2ae25fdcfa6bfa62f5f4691af7aaec7df85601d_00.gif">
+
+<p>Quem É Fan De Anime, Ou Até Mesmo Quem Não É, Já Ouviu Falar Nessas Duas Lendas!</p> <t><h3>Satoru Endo</h3> É Um Goleiro Talentoso E Amante De Futebol, Sua Determinação É Algo Fora Do Comum, Muito Autoconfiante E De Personalidade Forte!</t>
+<t><h3>Kakashi</h3>Desde De Pequeno Já Apresentava Uma Habilidade Diferenciada, Sendo Rápido, E Muito Estrategista. Após A Suposta Morte De Um Grande amigo, Obito Uchira, Companheiro De Batalha, Obito Concede Ao Seu Amigo O Poder Do Sharingan. Então Kakashi Poderia prever Movimentos Dos Seus Oponentes E Contra-atacando Com o Mesmo Golpe, Ficou Conhecido Como 'O Ninja Que Copia'!</t>
+
+<h3>Combate</h3>
+    <t>Certamente Se Estivessemos Comparando Habilidades No Futebol, Seria Uma Algo Bem Dificil, Porém Se Tratando De Luta, Kakashi Venceria Sem Muita Dificuldade!</t></t>
+<div class="site">
+    <h4><img src="https://criticalhits.com.br/wp-content/uploads/2019/08/Kakashi-cosplay.jpeg"  alt="hatake" width="310" height="182"><p>Lembrando Que Esse É Um Trabalho Acadêmico, Sem Fins Lucrativos! Somos Contra A Violência, Diga não Ao Ódio!</p></h4>
+    </div>
+
+<h1>Mickey Mouse(Disney) Vs Pica-Pau(Universal)</h1>
+    <img src="http://24.media.tumblr.com/a573e6bc4b68f88f550596f38f643305/tumblr_n5jokbwcwv1s2wio8o1_500.gif" alt="mickey" width="360" height="182">
+    <img src="https://cdn.onlinewebfonts.com/svg/img_418591.png" alt="versus" width="200" height="250">
+    <img src="https://33.media.tumblr.com/88c23793239d38d2943e2b265c76d2fa/tumblr_mi6x2bpSml1qcdqbpo1_400.gif"  alt="pica_pau" width="360" height="182">
+<p>Classíco Dos Comics Infantis, Criaturas Amáveis, Que Podem Ser Muito Loucas...</p> <h3>Mickey Mouse</h3> <t>Mickey é um dos personagens mais amados de todos os tempos, sua personalidade amigavel, e brincalhona sempre prende nossa atenção em suas aventuras!</t>
+<h3>Pica-Pau</h3> <t>Um Personagem Muito Adimiravél, e maluco, pica pau é muito engraçado e sempre cria confusões em sua turma, represntando um extinto norte americano, são raros os momentos em que esse esperto personagem saiu por baixo em qualquer situação</t>
+<h3>Combate!</h3>
+<t>Com Base Em Suas Histórias E Personalidade, Pica-Pau Supera Mickey, Com Habilidades Inexplicáveis,E Malandragem Pica-Pau Vence!</t>
+
+    <div class="site">
+  <img src="https://media.giphy.com/media/cRHU6RK4PhS48/giphy.gif" alt="pica_pau_vence" width="310" height="182">
+</div>
+
+<h1>Mancha Solar(Marvel) VS Homem Formiga(DC)</h1>
+    <img src="https://s-media-cache-ak0.pinimg.com/originals/55/d2/50/55d2503fff9c9e75bd962ac6fe448e76.gif"  alt="mancha solar" width="360" height="182">
+    <img src="https://cdn.onlinewebfonts.com/svg/img_418591.png" alt="versus" width="200" height="250">
+    <img src="https://s.aficionados.com.br/imagens/homem-formiga-3.gif"  alt="homem_formiga" width="360" height="182">
+<p>Duas Lendas Dos HQs</p>
+
+    <h3>Mancha Solar</h3> <t>Nascido No Brasil, Roberto Da Costa é um jogador de futebol amador, que foi cotado para jogar as olimpiadas, durante a partida, Roberto sofre racismo, ocorre uma briga com um adversário e seus poderes se manifestam. Mancha Solar É Um Mutante Nivel ômega, capaz de absorver e converter energia solar em força e resistência sobre humana.</t>
+    <h3>Homem Formiga</h3> <t>Scott Lang é capaz de se encolher ao tamanho de uma formiga, não afeta sua massa de volume normal, significa que neste tamanho ele tem uma força sobre humana.</t>
+    <h3>Combate!</h3>
+    <t>Mancha Solar Daria Um Pouco De Trabalho Para O Homem Formiga, já Que ele é Nivel ômega, seus poderes destruiriam seus equipamentos, tais como capacete, e manoplas de pulso, reduzindo sua capacidade de contra atacar!</t>
+
+<div class="site">
+    <img src="http://vignette2.wikia.nocookie.net/powerlisting/images/b/b3/Roberto_da_Costa_%28Earth-616%29_0100.jpg/revision/latest?cb=20110611182542"  alt="Mancha_Vence" width="310" height="182" >
+</div>
+
+<h1>Santa Claus(marvel) VS Hancock</h1>
+    <img src="https://geekandsundry.com/wp-content/uploads/2016/12/santaclaus_marvel.png"  alt="santa" width="360" height="182">
+    <img src="https://cdn.onlinewebfonts.com/svg/img_418591.png" alt="vesus" width="200" height="250">
+    <img src="https://a.ltrbxd.com/resized/sm/upload/rc/9c/rs/gb/hancock-1200-1200-675-675-crop-000000.jpg?k=e2bcc9bb53"  alt="hancock" width="360" height="182">
+    <h3>Santa Claus</h3>
+    <t>Santa Claus É Um do Mutantes Mais Poderosos De todos os tempos,A muitos mitos sobre o Santa, porém, Em Um episodio de x-men, ele teletransporta vários heróis do instituto xavier para longe de uma vez.</t>
+    <h3>Hancock</h3>
+    <t>Hancock tem a habilidade de voar e tem super força, Ele começa a tentar passar uma boa impressão Ao tentar Ser Politicamente correto!</t>
+    <h3>Combate!</h3>
+    <t>Apesar De ser Um Grande Herói Hancock, Perde Para o Santa Claus, Que Tem Poderes Ainda Inexplicaveis, Porém De Magnitude Gigantesca Nos Quadrinhos!</t>
+
+<div class="site">
+    <img src="https://i.pinimg.com/originals/e2/43/63/e24363ef204cbcc4352a1b2d2b5c59ab.jpg" alt="santa_vence" width="310" height="182"> <h3>Happy Christimas 2020</h3>
+</div>
+
+<div class="header">
+<h2>Sobre O Autor:<h2>
+<p><img src="https://64.media.tumblr.com/557635d8758924b873e3b94d8ba6cab3/5f113a01e3173354-de/s540x810/6faca134733951d2d848d4d0226ce2eb8fc4ef07.png"  alt="insta" width="300" height="300"></p> <p> Sugestões, Criticas & Elogios, Manda Um Direct! <i class="fas fa-paper-plane" style="font-size:38px;color:ligt;"></i> <p> <i class="fas fa-envelope" style="font-size:22px;color:light;"></i> Gabriel_jfn@hotmail.com </p>
+
+</p>
+</div>
+
+<img src="https://64.media.tumblr.com/ccb1aec0a5adac9eb07fa8ee3a121d0d/18b6913a9de7fa0c-86/s540x810/310a5d12a1502797f33f43359fb7f3ce924bbf70.jpg" alt="gabriel" width="200" height="128px";  >
+    <img src="https://fatweb.s3.amazonaws.com/vestibularfatec/imgold/layout-2sem13/logo-vestibular-fatec.png" alt="vestibularfatec" width="200" height="100">
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/97/PythonAnywhere_logo.png/180px-PythonAnywhere_logo.png" >
+
+
+
+
+<head>
+</body>
+    </html>
+        """
